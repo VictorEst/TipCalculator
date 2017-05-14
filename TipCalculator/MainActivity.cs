@@ -8,6 +8,7 @@ namespace TipCalculator
     [Activity(Label = "TipCalculator", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
+        //This are the elements that have a visual representation and I will make the interact with the UI
         EditText enterText;
         Button calcuButton;
         TextView tipText;
